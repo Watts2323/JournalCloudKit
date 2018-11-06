@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        EntryController.shared.addEntryWith(title: "Test Entry", body: "I love test Entries") { (success) in
+            
+        }
         return true
     }
 

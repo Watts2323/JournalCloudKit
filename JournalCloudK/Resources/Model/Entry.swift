@@ -10,9 +10,9 @@ import Foundation
 import CloudKit
 
 struct Constants {
-    fileprivate static let titleKey = "Title"
-    fileprivate static let bodyKey = "Body"
-     fileprivate static let recordKey = "Entry"
+     static let titleKey = "Title"
+     static let bodyKey = "Body"
+      static let recordKey = "Entry"
 }
 
 class Entry {

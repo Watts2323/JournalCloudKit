@@ -39,9 +39,9 @@ class EntryController {
         
         self.save(entry: entry) { (success) in
             if success {
-                completion(false)
-            } else {
                 completion(true)
+            } else {
+                completion(false)
             }
         }
     }
@@ -108,6 +108,9 @@ class EntryController {
                 completion(false);return
             }
             guard let record = record else { completion(false); return }
+            
+//            var entriesFromFetch: [Entry] = []
+            
             let entries = record.compactMap{ Entry(ckRecord: $0) }
             self.entries = entries
             completion(true)

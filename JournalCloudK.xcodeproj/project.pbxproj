@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		197810E72191FF5B00CC9FD4 /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197810E62191FF5B00CC9FD4 /* EntryListTableViewController.swift */; };
+		197810E92191FF6A00CC9FD4 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197810E82191FF6A00CC9FD4 /* EntryDetailViewController.swift */; };
 		1979BD4A2191133D00024DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979BD492191133D00024DFE /* AppDelegate.swift */; };
 		1979BD4F2191133D00024DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1979BD4D2191133D00024DFE /* Main.storyboard */; };
 		1979BD512191133E00024DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1979BD502191133E00024DFE /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		197810E62191FF5B00CC9FD4 /* EntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
+		197810E82191FF6A00CC9FD4 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 		1979BD462191133D00024DFE /* JournalCloudK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalCloudK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1979BD492191133D00024DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1979BD4E2191133D00024DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 			path = ModelController;
 			sourceTree = "<group>";
 		};
+		197810EA2191FF8E00CC9FD4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				197810E62191FF5B00CC9FD4 /* EntryListTableViewController.swift */,
+				197810E82191FF6A00CC9FD4 /* EntryDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		1979BD3D2191133D00024DFE = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +95,7 @@
 				1979BD5B2191134A00024DFE /* Resources */,
 				197810E42191351D00CC9FD4 /* Storyboard */,
 				197810E52191352C00CC9FD4 /* ModelController */,
+				197810EA2191FF8E00CC9FD4 /* ViewControllers */,
 			);
 			path = JournalCloudK;
 			sourceTree = "<group>";
@@ -194,6 +208,8 @@
 			files = (
 				1979BD642191346A00024DFE /* EntryController.swift in Sources */,
 				1979BD5D219129AD00024DFE /* Entry.swift in Sources */,
+				197810E72191FF5B00CC9FD4 /* EntryListTableViewController.swift in Sources */,
+				197810E92191FF6A00CC9FD4 /* EntryDetailViewController.swift in Sources */,
 				1979BD4A2191133D00024DFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
